@@ -1,0 +1,158 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+.navleft{
+    padding:20px;
+}
+.navright{
+    padding-right:20px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.element{
+    padding:20px;
+    align-items: right;
+}
+.log:hover{
+    align-items:top;
+    color: blue;
+}
+.element:hover{
+    color: gold;
+    text-decoration: underline;
+}
+.gallery-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 80%;
+    background: cover;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: inline-block;
+    background: cover;
+    height: 500px;
+    width: 500px;
+}
+
+.gallery img {
+    width: 100%;
+    height:100%;
+    margin-right: 10px; /* Adjust spacing between images */
+}
+p{
+    font-family: 'Encode Sans', sans-serif;
+    font-size:20px;
+    text-align: center;
+    font-size: medium;
+    color:black;
+
+
+}
+.box{
+    display:inline;
+    border: 2px rgba(9, 255, 0, 0.279) solid;
+    margin:20px;
+    padding: 20px;
+    width: 400px;
+   
+}
+.box:hover{
+    background-color:paleturquoise;
+    color: blue;
+    
+}
+h1{
+    color: green;
+    text-align: center;
+}
+p{
+    color: palevioletred;
+}
+.services {
+    text-align: center;
+    padding: 20px;
+}
+
+.services h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.services p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom:20px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(141, 21, 83, 0);
+    transition: box-shadow 0.3s ease;
+    width: 200px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(160, 36, 158, 0.64);
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 100%;
+    height:auto;
+    transition: z-index 0.3s ease;
+}
+
+.intro {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.intro h4 {
+    color: #333;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+.farmer {
+    text-align: center;
+    padding: 20px;
+}
+
+.farmer h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.farmer p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.last img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    border: 2px solid #333; /* Add a border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.last img:hover {
+    transform: scale(1.1);
+}

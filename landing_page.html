@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishi Market</title>
+    <link rel="stylesheet" href="landing_page.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+    /* Add CSS for image sliding animation */
+    .gallery-container {
+        width: 100%; /* Ensure the gallery takes full width */
+        overflow: hidden; /* Hide overflowed images */
+        position: relative; /* Position the images */
+    }
+
+    .gallery {
+        display: flex; /* Use flexbox to lay out images horizontally */
+        transition: transform 0.5s ease; /* Add smooth transition */
+    }
+
+    .gallery img {
+        flex-shrink: 0; /* Prevent images from shrinking */
+        width: 100%; /* Ensure images take full width */
+    }
+
+    .gallery-container:hover .gallery {
+        animation: slideImages 10s linear infinite; /* Set animation properties when hovered */
+    }
+
+    @keyframes slideImages {
+        0% { transform: translateX(0); } /* Start position */
+        100% { transform: translateX(calc(-100% * 2)); } /* End position */
+    }
+</style>
+</head>
+<body><div>
+    <div class="navbar">
+
+        <div class="navleft">
+            <img src="krishna.png" width="300px" height="100" /> <!-- Properly closed the img tag -->
+        </div>
+        <div class="navright">
+            <a class="element">HOME</a>
+            <a class="element">ALL LIST</a>
+            <a class="element">CONTACT</a>
+            <a class="element">NEWS</a>
+            <a class="element">REGISTER</a>
+            <div class="log">
+                <a>Login|Register</a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="gallery-container">
+        <div class="gallery">
+            <img src="pa.jpg" alt="Photo 1">
+            <img src="thumb.jpg" alt="Photo 2">
+            <img src="farm.jpg" alt="Photo 3">
+            <img src="pa.jpg" alt="Photo 1">
+            <img src="thumb.jpg" alt="Photo 2">
+
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+    <div class="box">
+        <h1>Welcome to "Krishi-Market</h1>
+        <p>
+            Buy and sell your Agric produce online (Buyers meet Farmers) – Sell your produce directly to buyers without middlemen and make more money from your farm produce.
+            It’s evident that India has one of the largest agricultural markets around the world, which is why it becomes important to have a service, which can connect the farmers all over the country. This would help them in maximizing their profits by selling their farm produce at a better price by selling locally or where farmer get maximum price. The service is free for now</p>
+    </div>
+    <div class="sevices" >
+        <h1 >Buy and Sell Categories</h1>
+        <p>Here you can Buy or Sell or Advertise your agriculture produce online</p>
+            <div class="cont">
+                <div class="card">
+                    <img src="veg.jpg" alt="Photo 1">
+                    <div class="intro">
+                        <h4>vegatables</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="fru.jpg" alt="Photo 2">
+                    <div class="intro">
+                        <h4>vegetable</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="fru.jpg" alt="Photo 3">
+                    <div class="intro">
+                        <h4>Fruits</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="sps.jpg" alt="Photo 4">
+                    <div class="intro">
+                        <h4>Spices</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="cpf.jpg" alt="Photo 5">
+                    <div class="intro">
+                        <h4>Coffeeand Tea</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="meet.jpg" alt="Photo 6">
+                    <div class="intro">
+                        <h4>Poultry Products</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="fish.jpg" alt="Photo 7">
+                    <div class="intro">
+                        <h4>Fishery</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="flo.jpg" alt="Photo 8">
+                    <div class="intro">
+                        <h4>Flowers</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="cow.jpg" alt="Photo 9">
+                    <div class="intro">
+                        <h4>
+                            Cattle and Sheep</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="sead.jpg" alt="Photo 10">
+                    <div class="intro">
+                        <h4>Seeds</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="agri.jpg" alt="Photo 11">
+                    <div class="intro">
+                        <h4>
+                            Agriculture Land</h4>
+                    </div>
+                </div>
+                    <div class="card">
+                        <img src="fet.jpg" alt="Photo 12">
+                        <div class="intro">
+                            <h4>
+                                Fertilizers</h4>
+                        </div>
+                    </div>
+                        <div class="card">
+                            <img src="tol.jpg" alt="Photo 12">
+                            <div class="intro">
+                                <h4>
+                                    Agri Tools </h4>
+                            </div>
+                        </div>
+                            <div class="card">
+                                <img src="nar.jpg" alt="Photo 12">
+                                <div class="intro">
+                                    <h4>Nursery Plants </h4>
+                                </div>
+                          </div>
+            </div>
+    </div>
+    <div class="farmer">
+        <h1>How it  Works</h1>
+        <p>
+            Farmers can sell all products through Krishi Market.</p>
+            <div class="last"><img src="foooo.jpg"alt="Farmer"></div>
+            
+    </div>
+</div>
+</body>
+</html>
